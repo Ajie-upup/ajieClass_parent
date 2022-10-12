@@ -28,6 +28,7 @@ public class GlobalExceptionHandler {
         return Result.fail(null).message("执行了特定异常ArithmeticException处理");
     }
 
+
     //自定义异常处理 -- MyException
     @ExceptionHandler(MyException.class)
     @ResponseBody
